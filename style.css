@@ -4,9 +4,32 @@
     font-family: sans-serif;
 }
 
-header, .section-one, footer, button{
+header, .section-one, footer{
     background-color: #1F2937;
     color: #f9faf8;
+}
+
+button{
+    border-radius: 5px;
+    padding: 8px 30px;
+    cursor: pointer;
+    background-color: #3882F6;
+    color: #f9faf8;
+
+}
+
+.section-one button{
+    border: 0px;
+    border-color: #3882F6;
+}
+
+.section-four button{
+    border-color: #f9faf8;
+    border: 2px solid #f9faf8;
+}
+
+.section-one .left p{
+    color: #E5E7EB;
 }
 
 .section-three{
@@ -19,6 +42,7 @@ header, .section-one, footer, button{
 
 header .logo{
     font-size: 24px;
+    color: #f9faf8;
 }
 
 header .links{
@@ -28,15 +52,12 @@ header .links{
     gap: 25px;
 }
 
-button{
-    background-color: #3882F6;
-    border-radius: 5px;
-    padding: 8px 30px;
-    cursor: pointer;
-    
+.right img {
+    width: 400px;
+    height: 250px;
 }
 
-.right img{
+.left{
     width: 400px;
     height: 250px;
 }
@@ -59,9 +80,25 @@ button{
     color: #f9faf8;
 }
 
-header{
+header, .section-one{
     padding: 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
 }
+
+
+
+.main{
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 800;
+    
+}
+
+.left .main, .left p {
+    margin-bottom: 10px;
+}
+
+
 
