@@ -50,16 +50,11 @@ header .links{
     color: #E5E7EB;
     display: flex;
     gap: 25px;
+    justify-content: flex-end;
 }
 
-.right img {
-    width: 400px;
-    height: 250px;
-}
-
-.left{
-    width: 400px;
-    height: 250px;
+.section-one .left, .right img, .logo, .links{
+    width: 500px;
 }
 
 .box img{
