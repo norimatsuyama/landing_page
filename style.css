@@ -109,20 +109,36 @@ header, .section-one{
 
 .section-three{
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 150px
 }
 
-.section-four{
-    background-color: #3882F6;
-}
+
 
 .quote{
     font-size: 36p;
     color: #1F2937;
     font-weight: light;
     font-style: italic;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 100;
+}
+
+.author{
+    
+    align-self: flex-end;
+    font-size: 20px;
+    font-weight: 700;
 }
 
 .section-four{
+    background-color: #3882F6;
     color: #f9faf8;
 }
 
