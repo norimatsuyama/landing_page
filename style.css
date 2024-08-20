@@ -140,9 +140,23 @@ header, .section-one{
 .section-four{
     background-color: #3882F6;
     color: #f9faf8;
+    margin: 50px 80px;
+    padding: 30px 50px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
+.section-four h3 {
+    margin-bottom: 5px;
+}
 
+footer{
+    display: flex;
+    padding: 20px 30px;
+    justify-content: center;
+}
 
 
 
