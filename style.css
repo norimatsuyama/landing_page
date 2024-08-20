@@ -17,10 +17,15 @@ button{
     color: #f9faf8;
 
 }
-
+.section-one{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 .section-one button{
     border: 0px;
     border-color: #3882F6;
+    margin-bottom: 20px;
 }
 
 .section-four button{
@@ -30,14 +35,6 @@ button{
 
 .section-one .left p{
     color: #E5E7EB;
-}
-
-.section-three{
-    background-color: #E5E7EB;
-}
-
-.section-four{
-    background-color: #3882F6;
 }
 
 header .logo{
@@ -57,12 +54,66 @@ header .links{
     width: 500px;
 }
 
+header, .section-one{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main{
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 800;
+    
+}
+
+.left .main, .left p {
+    margin-bottom: 10px;
+}
+
+.section-two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+
+.section-two h2{
+    margin-bottom: 50px;
+}
+
+.boxes{
+    display: flex;
+    gap: 150px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box{
+    max-width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
 .box img{
-    width: 150px;
+    max-width: 150px;
     height: 150px;
     border-radius: 5px;
     border: 5px solid #3882F6;
+    margin-bottom: 20px;
 } 
+
+
+.section-three{
+    background-color: #E5E7EB;
+}
+
+.section-four{
+    background-color: #3882F6;
+}
 
 .quote{
     font-size: 36p;
@@ -75,25 +126,9 @@ header .links{
     color: #f9faf8;
 }
 
-header, .section-one{
-    padding: 20px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
 
 
 
-.main{
-    color: #f9faf8;
-    font-size: 48px;
-    font-weight: 800;
-    
-}
-
-.left .main, .left p {
-    margin-bottom: 10px;
-}
 
 
 
