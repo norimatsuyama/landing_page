@@ -85,9 +85,10 @@ header, .section-one{
 
 .boxes{
     display: flex;
-    gap: 150px;
+    gap: 50px;
     flex-wrap: wrap;
     justify-content: center;
+   
 }
 
 .box{
@@ -127,7 +128,7 @@ header, .section-one{
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
-    font-weight: 100;
+    font-weight: 50;
 }
 
 .author{
